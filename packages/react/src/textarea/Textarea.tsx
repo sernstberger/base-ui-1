@@ -18,7 +18,7 @@ const Textarea = React.forwardRef(function Textarea(
   return (
     <Field.Control
       ref={forwardedRef}
-      render={render || ((props) => <textarea {...props} />)}
+      render={render || ((renderProps) => <textarea {...renderProps} />)}
       className={className}
       {...otherProps}
     />
