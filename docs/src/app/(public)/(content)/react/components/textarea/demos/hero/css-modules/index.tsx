@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Input } from '@base-ui-components/react/input';
+import { Textarea } from '@base-ui-components/react/textarea';
 import styles from './index.module.css';
 
-export default function ExampleInput() {
-  return <Input placeholder="Name" className={styles.Input} />;
+export default function ExampleTextarea() {
+  return <Textarea placeholder="Name" className={styles.Textarea} />;
 }

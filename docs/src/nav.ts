@@ -133,6 +133,10 @@ export const nav = [
         href: '/react/components/tabs',
       },
       {
+        label: 'Textarea',
+        href: '/react/components/textarea',
+      },
+      {
         label: 'Toggle',
         href: '/react/components/toggle',
       },
